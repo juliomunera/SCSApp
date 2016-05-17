@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="9dp"
+    android:background="#084269"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Historia: 1928384 - 2"
+            style="@style/detallePatients"
+            android:layout_weight="1"
+            android:id="@+id/txtHistoria" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Urgencias"
+            style="@style/detallePatients"
+            android:id="@+id/txtUbicacion" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C.C. 108345534"
+            style="@style/detallePatients"
+            android:layout_weight="1"
+            android:id="@+id/txtIdentificacion" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="31 años"
+            style="@style/detallePatients"
+            android:id="@+id/txtEdad" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ubicación: 03"
+            style="@style/detallePatients"
+            android:layout_weight="1"
+            android:id="@+id/txtUbicacion2" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cantidad de ordenes"
+            style="@style/detallePatients"
+            android:id="@+id/txtCantidad" />
+    </LinearLayout>
+</LinearLayout>

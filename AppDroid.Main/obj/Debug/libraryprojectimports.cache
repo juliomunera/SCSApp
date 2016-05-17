@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <Jars></Jars>
+  <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>/Users/macuser/Documents/SCSAPP_v1 2.0/Net/Device/Android/AppDroid.Main/obj/Debug/__library_projects__/APPDroid.Framework/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/macuser/Documents/SCSAPP_v1 2.0/Net/Device/Android/AppDroid.Main/obj/Debug/__library_projects__/APPDroid.AdmMed/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/macuser/Documents/SCSAPP_v1 2.0/Net/Device/Android/AppDroid.Main/obj/Debug/__library_projects__/APPDroid.CarMed/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/macuser/Documents/SCSAPP_v1 2.0/Net/Device/Android/AppDroid.Main/obj/Debug/__library_projects__/APPDroid.DevMed/library_project_imports/res</ResolvedResourceDirectory>
+  </ResolvedResourceDirectories>
+  <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>/Users/macuser/Documents/SCSAPP_v1 2.0/Net/Device/Android/AppDroid.Main/obj/Debug/__library_projects__/APPDroid.Framework/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/macuser/Documents/SCSAPP_v1 2.0/Net/Device/Android/AppDroid.Main/obj/Debug/__library_projects__/APPDroid.AdmMed/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/macuser/Documents/SCSAPP_v1 2.0/Net/Device/Android/AppDroid.Main/obj/Debug/__library_projects__/APPDroid.CarMed/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/macuser/Documents/SCSAPP_v1 2.0/Net/Device/Android/AppDroid.Main/obj/Debug/__library_projects__/APPDroid.DevMed/library_project_imports/assets</ResolvedAssetDirectory>
+  </ResolvedAssetDirectories>
+  <ResolvedEnvironmentFiles />
+  <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>/Users/macuser/Documents/SCSAPP_v1 2.0/Net/Device/Android/AppDroid.Main/obj/Debug/__library_projects__/APPDroid.Framework.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/macuser/Documents/SCSAPP_v1 2.0/Net/Device/Android/AppDroid.Main/obj/Debug/__library_projects__/APPDroid.AdmMed.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/macuser/Documents/SCSAPP_v1 2.0/Net/Device/Android/AppDroid.Main/obj/Debug/__library_projects__/APPDroid.CarMed.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/macuser/Documents/SCSAPP_v1 2.0/Net/Device/Android/AppDroid.Main/obj/Debug/__library_projects__/APPDroid.DevMed.stamp</ResolvedResourceDirectoryStamp>
+  </ResolvedResourceDirectoryStamps>
+</Paths>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{23387A32-6984-45DE-B40D-4DC347288F89}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>APPDroid.Framework</RootNamespace>
+    <AssemblyName>APPDroid.Framework</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
+    <DevInstrumentationEnabled>True</DevInstrumentationEnabled>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <WarningLevel>4</WarningLevel>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Mono.Data.Sqlite" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Json" />
+    <Reference Include="SCSAPP.Framework">
+      <HintPath>..\..\..\SCSAPP.Framework\bin\Release\SCSAPP.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.Client">
+      <HintPath>..\Components\signalr-2.1.2.2\lib\android\Microsoft.AspNet.SignalR.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\Components\signalr-2.1.2.2\lib\android\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\Components\signalr-2.1.2.2\lib\android\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\Components\signalr-2.1.2.2\lib\android\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v4">
+      <HintPath>..\packages\Xamarin.Android.Support.v4.23.1.1.0\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Context\ActivitiesContext.cs" />
+    <Compile Include="Context\ActivitiesTypes.cs" />
+    <Compile Include="Web References\WServiceInstaller\Reference.cs">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\LicenseController.cs" />
+    <Compile Include="Services\WebServices.cs" />
+    <Compile Include="Helpers\DataBaseManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Web References\WServiceInstaller\WServiceInstaller.disco" />
+    <None Include="Web References\WServiceInstaller\WServiceInstaller.wsdl" />
+    <None Include="Web References\WServiceInstaller\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values-sw600dp\dimens.xml" />
+    <AndroidResource Include="Resources\values-sw720dp\dimens.xml" />
+    <AndroidResource Include="Resources\drawable\ic_logo.png" />
+    <AndroidResource Include="Resources\drawable\gradient.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_settings.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_settings.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_settings.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_settings.png" />
+    <AndroidResource Include="Resources\drawable\radius_left.xml" />
+    <AndroidResource Include="Resources\drawable\radius_rignt.xml" />
+    <AndroidResource Include="Resources\drawable\ic_admed.png" />
+    <AndroidResource Include="Resources\drawable\ic_agci.png" />
+    <AndroidResource Include="Resources\drawable\ic_aut.png" />
+    <AndroidResource Include="Resources\drawable\ic_carmed.png" />
+    <AndroidResource Include="Resources\drawable\ic_devmed.png" />
+    <AndroidResource Include="Resources\drawable\ic_hc.png" />
+    <AndroidResource Include="Resources\drawable\ic_invfis.png" />
+    <AndroidResource Include="Resources\drawable\ic_movart.png" />
+    <AndroidResource Include="Resources\drawable\ic_rpt.png" />
+    <AndroidResource Include="Resources\drawable\ic_sum.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_overflow.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_overflow.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_overflow.png" />
+    <AndroidResource Include="Resources\drawable\ic_sca.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\action_search.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\action_search.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\action_search.png" />
+    <AndroidResource Include="Resources\drawable\sombras.axml" />
+    <AndroidResource Include="Resources\drawable\radius_codigo_barras.xml" />
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\values\colors.xml" />
+    <AndroidResource Include="Resources\values\dimens.xml" />
+    <AndroidResource Include="Resources\values\styles.xml" />
+    <AndroidResource Include="Resources\layout\items_master.axml" />
+    <AndroidResource Include="Resources\layout\app_select_master.axml" />
+    <AndroidResource Include="Resources\drawable\rounded_corner.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_save.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_save.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_save.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_save.png" />
+    <AndroidResource Include="Resources\menu\menu_framework.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\icon_actualizar.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\icon_actualizar.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\icon_actualizar.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\icon_actualizar.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_cancel.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_cancel.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_cancel.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_cancel.png" />
+    <AndroidResource Include="Resources\drawable\button_custom_settings.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\actualizar_a.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\actualizar_d.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\actualizar_n.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\completado_a.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\completado_d.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\completado_n.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\configurar_a.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\configurar_d.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\configurar_n.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\consultar_a.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\consultar_d.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\consultar_n.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\eliminar_a.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\eliminar_d.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\eliminar_n.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\guardar_a.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\guardar_d.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\guardar_n.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\no_cargar_a.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\no_cargar_d.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\no_cargar_n.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\pendiente_a.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\pendiente_d.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\pendiente_n.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\actualizar_a.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\actualizar_d.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\actualizar_n.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\completado_a.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\completado_d.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\completado_n.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\configurar_a.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\configurar_d.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\configurar_n.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\consultar_a.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\consultar_d.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\consultar_n.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\eliminar_a.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\eliminar_d.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\eliminar_n.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\guardar_a.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\guardar_d.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\guardar_n.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\no_cargar_a.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\no_cargar_d.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\no_cargar_n.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\pendiente_a.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\pendiente_d.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\pendiente_n.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\actualizar_a.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\actualizar_d.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\actualizar_n.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\completado_a.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\completado_d.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\completado_n.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\configurar_a.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\configurar_d.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\configurar_n.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\consultar_a.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\consultar_d.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\consultar_n.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\eliminar_a.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\eliminar_d.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\eliminar_n.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\guardar_a.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\guardar_d.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\guardar_n.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\no_cargar_a.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\no_cargar_d.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\no_cargar_n.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\pendiente_a.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\pendiente_d.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\pendiente_n.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\actualizar_a.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\actualizar_d.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\actualizar_n.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\completado_a.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\completado_d.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\completado_n.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\configurar_a.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\configurar_d.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\configurar_n.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\consultar_a.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\consultar_d.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\consultar_n.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\eliminar_a.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\eliminar_d.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\eliminar_n.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\guardar_a.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\guardar_d.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\guardar_n.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\no_cargar_a.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\no_cargar_d.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\no_cargar_n.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\pendiente_a.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\pendiente_d.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\pendiente_n.png" />
+    <AndroidResource Include="Resources\drawable\button_custom_actua.xml" />
+    <AndroidResource Include="Resources\drawable\button_custom_save.xml" />
+    <AndroidResource Include="Resources\drawable\button_custom_consultar.xml" />
+    <AndroidResource Include="Resources\drawable\button_custom_pendiente.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->Esources
+  <ItemGroup><WebReferences Include="Web References" /></ItemGroup><ItemGroup><WebReferenceUrl Include="http://dmr.servinte.com.co/DMRSite/ClientCenterServices/WServiceInstaller.asmx"><UrlBehavior>Dynamic</UrlBehavior><RelPath>Web References\WServiceInstaller</RelPath><UpdateFromURL>http://dmr.servinte.com.co/DMRSite/ClientCenterServices/WServiceInstaller.asmx</UpdateFromURL></WebReferenceUrl></ItemGroup><ItemGroup><Folder Include="Resources\menu\" /></ItemGroup></Project>

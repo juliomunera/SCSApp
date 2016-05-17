@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{5DEC2D77-104D-4403-93D8-64C71DD48B7F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>APPDroid.AdmMed</RootNamespace>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
+    <AssemblyName>APPDroid.AdmMed</AssemblyName>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <WarningLevel>4</WarningLevel>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <Optimize>true</Optimize>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="SCSAPP.Framework">
+      <HintPath>..\..\..\SCSAPP.Framework\bin\Release\SCSAPP.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v4">
+      <HintPath>..\packages\Xamarin.Android.Support.v4.23.1.1.0\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Activities\MyActionBarDrawerToggle.cs" />
+    <Compile Include="Activities\ActPatientList.cs" />
+    <Compile Include="Activities\ActMain.cs" />
+    <Compile Include="Activities\ActConfirmar.cs" />
+    <Compile Include="Activities\ActDiluyente.cs" />
+    <Compile Include="Activities\ActPacienteExmpan.cs" />
+    <Compile Include="Activities\FragActCamaCodigo.cs" />
+    <Compile Include="Adapters\AdaPacientes.cs" />
+    <Compile Include="Adapters\AdaExpaPaciente.cs" />
+    <Compile Include="Adapters\AdaMedicamento.cs" />
+    <Compile Include="Fragments\FragCodigoManilla.cs" />
+    <Compile Include="Adapters\AdapCausa.cs" />
+    <Compile Include="Activities\ActDosis.cs" />
+    <Compile Include="Activities\ActSelectPatient.cs" />
+    <Compile Include="Activities\ActPatientHandle.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\layout_adm_main.axml" />
+    <AndroidResource Include="Resources\layout\layout_adm_listaPacien.axml" />
+    <AndroidResource Include="Resources\drawable\radius_codigo_barras.xml" />
+    <AndroidResource Include="Resources\drawable\radius_left.xml" />
+    <AndroidResource Include="Resources\drawable\radius_normal.xml" />
+    <AndroidResource Include="Resources\drawable\radius_rignt.xml" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\icon_actualizar.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\icon_left.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\icon_right.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\icon_actualizar.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\icon_left.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\icon_right.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_cancel.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_edit.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_record.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_tick.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_drawer_dark.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_drawer_light.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_drawer.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\icon_actualizar.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\icon_left.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\icon_right.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_cancel.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\icon_actualizar.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\icon_left.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\icon_right.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\drawer_shadow_dark.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\drawer_shadow_light.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\drawer_shadow_dark.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\drawer_shadow_light.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\drawer_shadow_dark.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\drawer_shadow_light.9.png" />
+    <AndroidResource Include="Resources\layout\fragment_codigo_b.axml" />
+    <AndroidResource Include="Resources\layout\item_medicamentos.axml" />
+    <AndroidResource Include="Resources\layout\app_causa_no_administrar.axml" />
+    <AndroidResource Include="Resources\layout\app_list_med.axml" />
+    <AndroidResource Include="Resources\layout\app_accion_medicamentos.axml" />
+    <AndroidResource Include="Resources\layout\app_alergias.axml" />
+    <AndroidResource Include="Resources\layout\app_nombre_paciente.axml" />
+    <AndroidResource Include="Resources\layout\app_detalle_paciente.axml" />
+    <AndroidResource Include="Resources\layout\app_accion_cancelar.axml" />
+    <AndroidResource Include="Resources\layout\app_posologia.axml" />
+    <AndroidResource Include="Resources\layout\app_segunda_accion_me.axml" />
+    <AndroidResource Include="Resources\layout\app_confir_admin.axml" />
+    <AndroidResource Include="Resources\layout\app_diluyente.axml" />
+    <AndroidResource Include="Resources\layout\app_list_camas_rango.axml" />
+    <AndroidResource Include="Resources\layout\app_admpac.axml" />
+    <AndroidResource Include="Resources\layout\app_docis.axml" />
+    <AndroidResource Include="Resources\menu\main_menu_adm.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_overflow.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_overflow.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_overflow.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_overflow.png" />
+    <AndroidResource Include="Resources\layout\item_patient.axml" />
+    <AndroidResource Include="Resources\layout\item_spinner.axml" />
+    <AndroidResource Include="Resources\menu\menu_actulizar.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_save.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_save.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_save.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_save.png" />
+    <AndroidResource Include="Resources\layout\layout_dev_paciente_p.axml" />
+    <AndroidResource Include="Resources\layout\layout_list_patien_select_one.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\APPDroid.Framework\APPDroid.Framework.csproj">
+      <Project>{23387A32-6984-45DE-B40D-4DC347288F89}</Project>
+      <Name>APPDroid.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\values\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+</Project>

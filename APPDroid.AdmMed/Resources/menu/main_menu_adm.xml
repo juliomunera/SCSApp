@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:id="@+id/menu_salir_AdmMed"
+		android:icon="@drawable/ic_action_overflow"
+        android:title="@string/menu_salir" />
+
+</menu>
+

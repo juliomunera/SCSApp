@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="library_name">APPDroid.CarMed</string>
+	<string name="txt_estructura_admin12">Ead Paciente</string>
+    <string name="btn_ver">VER</string>
+    <string name="txt_serviciocar">Servicio de Atención</string>
+    <string name="txt_fuente">Fuente</string>
+    <string name="txt_almacenes">Almacén</string>
+    <string name="txt_ubicacioncar">Ubicación</string>
+</resources>

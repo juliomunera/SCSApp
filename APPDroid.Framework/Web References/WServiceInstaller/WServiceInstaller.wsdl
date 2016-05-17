@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s0="http://servinte.com.co/ClientCenterServices" xmlns:tns="http://servinte.com.co/ClientCenterServices" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://servinte.com.co/ClientCenterServices" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://servinte.com.co/ClientCenterServices" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="AllOk">
+        <xs:complexType />
+      </xs:element>
+      <xs:element name="AllOkResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" maxOccurs="1" name="AllOkResult" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CanInstall">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="1" name="Arg1" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="Arg2" type="xs:int" />
+            <xs:element minOccurs="0" maxOccurs="1" name="Arg3" type="xs:string" />
+            <xs:element minOccurs="0" maxOccurs="1" name="Arg4" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CanInstallResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" maxOccurs="1" name="CanInstallResult" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ValidateClientCredentials">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="1" name="Arg1" type="xs:string" />
+            <xs:element minOccurs="0" maxOccurs="1" name="Arg2" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ValidateClientCredentialsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" maxOccurs="1" name="ValidateClientCredentialsResult" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ActivateLicences">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="1" name="Arg1" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="Arg2" type="xs:int" />
+            <xs:element minOccurs="0" maxOccurs="1" name="Arg3" type="xs:string" />
+            <xs:element minOccurs="0" maxOccurs="1" name="Arg4" type="xs:string" />
+            <xs:element minOccurs="0" maxOccurs="1" name="Arg5" type="xs:string" />
+            <xs:element minOccurs="0" maxOccurs="1" name="Arg6" type="xs:string" />
+            <xs:element minOccurs="0" maxOccurs="1" name="Arg7" type="xs:string" />
+            <xs:element minOccurs="0" maxOccurs="1" name="Arg8" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="Arg9" type="xs:int" />
+            <xs:element minOccurs="1" maxOccurs="1" name="Arg10" type="xs:double" />
+            <xs:element minOccurs="0" maxOccurs="1" name="Arg11" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ActivateLicencesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" maxOccurs="1" name="ActivateLicencesResult" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeactivateLicences">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="1" name="Arg1" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="Arg2" type="xs:int" />
+            <xs:element minOccurs="0" maxOccurs="1" name="Arg3" type="xs:string" />
+            <xs:element minOccurs="0" maxOccurs="1" name="Arg4" type="xs:string" />
+            <xs:element minOccurs="0" maxOccurs="1" name="Arg5" type="xs:string" />
+            <xs:element minOccurs="0" maxOccurs="1" name="Arg6" type="xs:string" />
+            <xs:element minOccurs="0" maxOccurs="1" name="Arg7" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="Arg8" type="xs:int" />
+            <xs:element minOccurs="1" maxOccurs="1" name="Arg9" type="xs:double" />
+            <xs:element minOccurs="0" maxOccurs="1" name="Arg10" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeactivateLicencesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" maxOccurs="1" name="DeactivateLicencesResult" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetActiveModules">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="1" name="Arg1" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="Arg2" type="xs:int" />
+            <xs:element minOccurs="1" maxOccurs="1" name="Arg3" type="xs:boolean" />
+            <xs:element minOccurs="0" maxOccurs="1" name="Arg4" type="xs:string" />
+            <xs:element minOccurs="0" maxOccurs="1" name="Arg5" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetActiveModulesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="1" name="GetActiveModulesResult" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetTrialTime">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="1" name="Arg1" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="Arg2" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetTrialTimeResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" maxOccurs="1" name="GetTrialTimeResult" nillable="true" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </types>
+  <message name="AllOkSoapIn">
+    <part name="parameters" element="tns:AllOk" />
+  </message>
+  <message name="AllOkSoapOut">
+    <part name="parameters" element="tns:AllOkResponse" />
+  </message>
+  <message name="CanInstallSoapIn">
+    <part name="parameters" element="tns:CanInstall" />
+  </message>
+  <message name="CanInstallSoapOut">
+    <part name="parameters" element="tns:CanInstallResponse" />
+  </message>
+  <message name="ValidateClientCredentialsSoapIn">
+    <part name="parameters" element="tns:ValidateClientCredentials" />
+  </message>
+  <message name="ValidateClientCredentialsSoapOut">
+    <part name="parameters" element="tns:ValidateClientCredentialsResponse" />
+  </message>
+  <message name="ActivateLicencesSoapIn">
+    <part name="parameters" element="tns:ActivateLicences" />
+  </message>
+  <message name="ActivateLicencesSoapOut">
+    <part name="parameters" element="tns:ActivateLicencesResponse" />
+  </message>
+  <message name="DeactivateLicencesSoapIn">
+    <part name="parameters" element="tns:DeactivateLicences" />
+  </message>
+  <message name="DeactivateLicencesSoapOut">
+    <part name="parameters" element="tns:DeactivateLicencesResponse" />
+  </message>
+  <message name="GetActiveModulesSoapIn">
+    <part name="parameters" element="tns:GetActiveModules" />
+  </message>
+  <message name="GetActiveModulesSoapOut">
+    <part name="parameters" element="tns:GetActiveModulesResponse" />
+  </message>
+  <message name="GetTrialTimeSoapIn">
+    <part name="parameters" element="tns:GetTrialTime" />
+  </message>
+  <message name="GetTrialTimeSoapOut">
+    <part name="parameters" element="tns:GetTrialTimeResponse" />
+  </message>
+  <portType name="WServiceInstallerSoap">
+    <operation name="AllOk">
+      <input message="tns:AllOkSoapIn" />
+      <output message="tns:AllOkSoapOut" />
+    </operation>
+    <operation name="CanInstall">
+      <input message="tns:CanInstallSoapIn" />
+      <output message="tns:CanInstallSoapOut" />
+    </operation>
+    <operation name="ValidateClientCredentials">
+      <input message="tns:ValidateClientCredentialsSoapIn" />
+      <output message="tns:ValidateClientCredentialsSoapOut" />
+    </operation>
+    <operation name="ActivateLicences">
+      <input message="tns:ActivateLicencesSoapIn" />
+      <output message="tns:ActivateLicencesSoapOut" />
+    </operation>
+    <operation name="DeactivateLicences">
+      <input message="tns:DeactivateLicencesSoapIn" />
+      <output message="tns:DeactivateLicencesSoapOut" />
+    </operation>
+    <operation name="GetActiveModules">
+      <input message="tns:GetActiveModulesSoapIn" />
+      <output message="tns:GetActiveModulesSoapOut" />
+    </operation>
+    <operation name="GetTrialTime">
+      <input message="tns:GetTrialTimeSoapIn" />
+      <output message="tns:GetTrialTimeSoapOut" />
+    </operation>
+  </portType>
+  <binding name="WServiceInstallerSoap" type="tns:WServiceInstallerSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="AllOk">
+      <soap:operation soapAction="http://servinte.com.co/ClientCenterServices/AllOk" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="CanInstall">
+      <soap:operation soapAction="http://servinte.com.co/ClientCenterServices/CanInstall" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ValidateClientCredentials">
+      <soap:operation soapAction="http://servinte.com.co/ClientCenterServices/ValidateClientCredentials" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ActivateLicences">
+      <soap:operation soapAction="http://servinte.com.co/ClientCenterServices/ActivateLicences" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="DeactivateLicences">
+      <soap:operation soapAction="http://servinte.com.co/ClientCenterServices/DeactivateLicences" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetActiveModules">
+      <soap:operation soapAction="http://servinte.com.co/ClientCenterServices/GetActiveModules" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetTrialTime">
+      <soap:operation soapAction="http://servinte.com.co/ClientCenterServices/GetTrialTime" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="WServiceInstallerSoap12" type="tns:WServiceInstallerSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="AllOk">
+      <soap12:operation soapAction="http://servinte.com.co/ClientCenterServices/AllOk" style="document" />
+      <input>
+        <soap12:body use="literal" />
+      </input>
+      <output>
+        <soap12:body use="literal" />
+      </output>
+    </operation>
+    <operation name="CanInstall">
+      <soap12:operation soapAction="http://servinte.com.co/ClientCenterServices/CanInstall" style="document" />
+      <input>
+        <soap12:body use="literal" />
+      </input>
+      <output>
+        <soap12:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ValidateClientCredentials">
+      <soap12:operation soapAction="http://servinte.com.co/ClientCenterServices/ValidateClientCredentials" style="document" />
+      <input>
+        <soap12:body use="literal" />
+      </input>
+      <output>
+        <soap12:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ActivateLicences">
+      <soap12:operation soapAction="http://servinte.com.co/ClientCenterServices/ActivateLicences" style="document" />
+      <input>
+        <soap12:body use="literal" />
+      </input>
+      <output>
+        <soap12:body use="literal" />
+      </output>
+    </operation>
+    <operation name="DeactivateLicences">
+      <soap12:operation soapAction="http://servinte.com.co/ClientCenterServices/DeactivateLicences" style="document" />
+      <input>
+        <soap12:body use="literal" />
+      </input>
+      <output>
+        <soap12:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetActiveModules">
+      <soap12:operation soapAction="http://servinte.com.co/ClientCenterServices/GetActiveModules" style="document" />
+      <input>
+        <soap12:body use="literal" />
+      </input>
+      <output>
+        <soap12:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetTrialTime">
+      <soap12:operation soapAction="http://servinte.com.co/ClientCenterServices/GetTrialTime" style="document" />
+      <input>
+        <soap12:body use="literal" />
+      </input>
+      <output>
+        <soap12:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="WServiceInstaller">
+    <port name="WServiceInstallerSoap" binding="tns:WServiceInstallerSoap">
+      <soap:address location="http://dmr.servinte.com.co/DMRSite/ClientCenterServices/WServiceInstaller.asmx" />
+    </port>
+    <port name="WServiceInstallerSoap12" binding="tns:WServiceInstallerSoap12">
+      <soap12:address location="http://dmr.servinte.com.co/DMRSite/ClientCenterServices/WServiceInstaller.asmx" />
+    </port>
+  </service>
+</definitions>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="23dp"
+    android:background="@drawable/gradient">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <!-- Ead se muestra si tiene mas de una -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/background_light"
+                android:text=""
+                android:id="@+id/periodo" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_estructura_admin12"
+                android:id="@+id/tituloEad"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"
+                android:textColor="@android:color/background_light"
+                android:layout_gravity="center_horizontal" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spead"
+                android:visibility="gone"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal" />
+        <!-- Fin -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_fuente"
+                android:id="@+id/tituloFuente"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/background_light"
+                android:layout_gravity="center_horizontal" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spFuente"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_almacenes"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/background_light"
+                android:layout_gravity="center_horizontal" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spAlmacenes"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_serviciocar"
+                android:id="@+id/tituloServicio"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/background_light"
+                android:layout_gravity="center_horizontal" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spServicios"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_ubicacioncar"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/background_light"
+                android:layout_gravity="center_horizontal" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spUbicacion"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:text="@string/btn_ver"
+                android:id="@+id/btnVer"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

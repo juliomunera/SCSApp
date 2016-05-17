@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient">
+    <ImageButton
+        android:src="@drawable/ic_action_settings"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/imgBtnsettings"
+        android:background="@drawable/button_custom_settings"
+        android:contentDescription="settings_servidor" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="50dp"
+        android:paddingTop="50dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:weightSum="1"
+        android:layout_below="@+id/imgBtnsettings"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_horizontal"
+        android:id="@+id/linearLayout3">
+        <ImageView
+            android:src="@drawable/ic_logo"
+            android:layout_width="240dp"
+            android:layout_height="100.1dp"
+            android:id="@+id/imageView1"
+            android:layout_weight="0.54" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textColor="@color/ColorNegro"
+            android:hint="@string/edit_usuario"
+            android:inputType="text"
+            android:background="@drawable/radius_left"
+            android:id="@+id/editUser" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:inputType="textPassword"
+            android:hint="@string/edit_password"
+            android:textColor="@color/ColorNegro"
+            android:background="@drawable/radius_rignt"
+            android:layout_marginTop="1dp"
+            android:id="@+id/editPassword" />
+        <Button
+            android:text="@string/btn_ingresar"
+            android:layout_width="match_parent"
+            android:layout_marginTop="12dp"
+            android:visibility="invisible"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_configuracion_ingreso"
+            android:id="@+id/txtConfiguracion"
+            style="@style/TextoBlanco"
+            android:visibility="visible"
+            android:layout_below="@+id/linearLayout3"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.54"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+</RelativeLayout>

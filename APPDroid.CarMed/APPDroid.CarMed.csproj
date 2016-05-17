@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{85EC122F-6D84-44D1-B6B4-CED26ED98E6B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>APPDroid.CarMed</RootNamespace>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
+    <AssemblyName>APPDroid.CarMed</AssemblyName>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <WarningLevel>4</WarningLevel>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <Optimize>true</Optimize>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <WarningLevel>4</WarningLevel>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <Optimize>true</Optimize>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="SCSAPP.Framework">
+      <HintPath>..\..\..\SCSAPP.Framework\bin\Release\SCSAPP.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="Mono.CSharp" />
+    <Reference Include="Xamarin.Android.Support.v4">
+      <HintPath>..\packages\Xamarin.Android.Support.v4.23.1.1.0\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adapters\AdapMedicines.cs" />
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Activities\ActCarMain.cs" />
+    <Compile Include="Fragments\FragCarMedicine.cs" />
+    <Compile Include="Adapters\AdapCargarPatients.cs" />
+    <Compile Include="Adapters\ExpandableCarPatien.cs" />
+    <Compile Include="Activities\DrawerToggles.cs" />
+    <Compile Include="Activities\ActCarList.cs" />
+    <Compile Include="Adapters\AdapterCausaCar.cs" />
+    <Compile Include="Activities\ActInconsistencia.cs" />
+    <Compile Include="Adapters\AdapIncosistences.cs" />
+    <Compile Include="Adapters\AdapGrupCum.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <AndroidResource Include="Resources\layout\item_car_medicine.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\ic_action_save.png" />
+    <AndroidResource Include="Resources\layout\layout_inconsistencia.axml" />
+    <AndroidResource Include="Resources\layout\item_incosistences.axml" />
+    <AndroidResource Include="Resources\drawable\ic_action_cancel.png" />
+    <AndroidResource Include="Resources\drawable\ic_action_edit.png" />
+    <AndroidResource Include="Resources\drawable\ic_action_record.png" />
+    <AndroidResource Include="Resources\drawable\ic_action_tick.png" />
+    <AndroidResource Include="Resources\layout\app_nombre_paciente_car.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\drawer_shadow_dark.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\drawer_shadow_light.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_overflow.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\drawer_shadow_dark.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\drawer_shadow_light.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\drawer_shadow_dark.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\drawer_shadow_light.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_overflow.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_save.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_overflow.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_save.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\icon_actualizar.png" />
+    <AndroidResource Include="Resources\menu\menu_cargos.axml" />
+    <AndroidResource Include="Resources\layout\dialog_detalle_medic.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_cancel.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_cancel.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_cancel.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_cancel.png" />
+    <AndroidResource Include="Resources\layout\item_grup_medicament.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_edit.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_edit.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_edit.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_edit.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_record.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_record.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_record.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_record.png" />
+    <None Include="packages.config" />
+    <AndroidResource Include="Resources\layout\fragment_car_cargos.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\layout\item_spinner.axml" />
+    <AndroidResource Include="Resources\layout\layout_car_main.axml" />
+    <AndroidResource Include="Resources\layout\layout_car_patients.axml" />
+    <AndroidResource Include="Resources\layout\item_list_patients.axml" />
+    <AndroidResource Include="Resources\layout\layout_car_detalle_paciente.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\APPDroid.Framework\APPDroid.Framework.csproj">
+      <Project>{23387A32-6984-45DE-B40D-4DC347288F89}</Project>
+      <Name>APPDroid.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Resources\drawable-hdpi\" />
+    <Folder Include="Resources\drawable-mdpi\" />
+    <Folder Include="Resources\drawable-xhdpi\" />
+    <Folder Include="Resources\drawable-xxhdpi\" />
+    <Folder Include="Resources\menu\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+</Project>

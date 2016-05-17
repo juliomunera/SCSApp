@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<style name="MyTheme" parent="android:Theme.Holo.Light">
+		
+  	</style>  
+
+
+  	<style name="TextoBlancoMenu">
+  		<item name="android:textSize">@dimen/Tamano_10</item>
+  		<item name="android:textColor">@color/ColorBlanco</item>
+  	</style>  
+
+  	<style name="TextoBlanco">
+  		<item name="android:textSize">@dimen/Tamano_12</item>
+  		<item name="android:textColor">@color/ColorBlanco</item>
+  	</style>  
+
+  	<style name="DetallePosologia">
+  		<item name="android:textSize">@dimen/Tamano_12</item>
+  		<item name="android:textColor">@color/ColorBlanco</item>
+  	</style>
+
+  	<style name="TotalmenteBlanco">
+  		<item name="android:textSize">@dimen/Tamano_12</item>
+  		<item name="android:textColor">@color/ColorBlanco</item>
+  	</style> 
+
+  	<style name="NombrePaciente">
+        <item name="android:textSize">13dp</item>
+        <item name="android:textColor">@color/ColorNegro</item>
+    </style>
+
+    <style name="Detalle_Paciente">
+        <!--<item name="android:textSize">8sp</item>-->
+        <item name="android:textColor">@color/ColorNegro</item>
+    </style>
+
+    <style name="Detalle_Posologia">
+        <item name="android:textSize">@dimen/Tamano_12</item>
+        <item name="android:textColor">@color/ColorNegro</item>
+    </style>
+
+    <style name="items_grids">
+        <item name="android:textSize">10dp</item>
+        <item name="android:textColor">@color/ColorNegro</item>
+    </style>
+
+    <style name="TextoActionMedicamentos">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@color/ColorBlanco</item>
+    </style>
+
+    <style name="TextoListaPacienteNombre">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/ColorBlanco</item>
+    </style>
+
+    <style name="TextoDetallePaciente">
+        <item name="android:textSize">11dp</item>
+        <item name="android:textColor">@color/ColorBlanco</item>
+    </style>
+
+    <style name="detallePatients">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+
+</resources>

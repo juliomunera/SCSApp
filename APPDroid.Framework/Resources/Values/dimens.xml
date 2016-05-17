@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    
+	<dimen name="Tamano_12">16.0sp</dimen>
+	<dimen name="Tamano_10">10.0sp</dimen>
+
+</resources>

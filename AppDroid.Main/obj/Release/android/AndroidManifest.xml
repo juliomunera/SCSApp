@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	 Author: gergarga 
+	 Date: 2015-04-12 
+	 SCSAPP 
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.2" package="AppDroid.Main">
+  <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="21" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+  <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+  <uses-permission android:name="android.permission.VIBRATE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <application android:label="ServinteApp" android:icon="@drawable/ic_servinte" android:name="mono.android.app.Application" android:allowBackup="true">
+    <activity android:icon="@drawable/ic_servinte" android:label="@string/ApplicationName" android:screenOrientation="portrait" android:name="md591316e9e42749aac4e93ff1beefb4615.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:icon="@drawable/ic_servinte" android:label="@string/panel_control" android:screenOrientation="portrait" android:name="md591316e9e42749aac4e93ff1beefb4615.AppHomeList" />
+    <activity android:icon="@drawable/ic_servinte" android:label="@string/txt_configuracion" android:parentActivityName="md591316e9e42749aac4e93ff1beefb4615.MainActivity" android:screenOrientation="portrait" android:name="md591316e9e42749aac4e93ff1beefb4615.AppSetting" />
+    <service android:name="md591316e9e42749aac4e93ff1beefb4615.InconsistencyService" />
+    <activity android:icon="@drawable/ic_admed" android:label="@string/app_admed" android:launchMode="singleTop" android:name="md5277f6bda02cfc7ac27321105c252a6e4.ActPatientList" />
+    <activity android:icon="@drawable/ic_admed" android:label="@string/app_admed" android:screenOrientation="portrait" android:name="md5277f6bda02cfc7ac27321105c252a6e4.ActMain" />
+    <activity android:icon="@drawable/ic_admed" android:label="@string/app_admed" android:screenOrientation="portrait" android:name="md5277f6bda02cfc7ac27321105c252a6e4.ActConfirmar" />
+    <activity android:icon="@drawable/ic_admed" android:label="@string/app_admed" android:parentActivityName="md5277f6bda02cfc7ac27321105c252a6e4.ActPacienteExmpan" android:screenOrientation="portrait" android:name="md5277f6bda02cfc7ac27321105c252a6e4.ActDiluyente" />
+    <activity android:icon="@drawable/ic_admed" android:label="@string/app_admed" android:noHistory="true" android:screenOrientation="portrait" android:name="md5277f6bda02cfc7ac27321105c252a6e4.ActPacienteExmpan">
+      <intent-filter>
+        <action android:name="barcodescanner.RECVR" />
+        <category android:name="android.intent.category.DEFAULT" />
+      </intent-filter>
+    </activity>
+    <activity android:icon="@drawable/ic_admed" android:label="@string/app_admed" android:launchMode="singleTop" android:name="md5277f6bda02cfc7ac27321105c252a6e4.FragActCamaCodigo" />
+    <activity android:icon="@drawable/ic_admed" android:label="@string/app_admed" android:noHistory="true" android:screenOrientation="portrait" android:name="md5277f6bda02cfc7ac27321105c252a6e4.ActDosis" />
+    <activity android:icon="@drawable/ic_admed" android:label="@string/app_admed" android:screenOrientation="portrait" android:name="md5277f6bda02cfc7ac27321105c252a6e4.ActSelectPatient" />
+    <activity android:icon="@drawable/ic_admed" android:label="@string/app_admed" android:screenOrientation="portrait" android:name="md5277f6bda02cfc7ac27321105c252a6e4.ActPatientHandle" />
+    <activity android:icon="@drawable/ic_carmed" android:label="@string/app_carmed" android:screenOrientation="portrait" android:name="md59e892a643505dc9644b9c9db29bdad72.ActCarMain" />
+    <activity android:icon="@drawable/ic_carmed" android:label="@string/app_carmed" android:screenOrientation="portrait" android:name="md59e892a643505dc9644b9c9db29bdad72.ActCarList" />
+    <activity android:label="Inconsistencias" android:screenOrientation="portrait" android:name="md59e892a643505dc9644b9c9db29bdad72.ActInconsistencia" />
+    <activity android:icon="@drawable/ic_devmed" android:label="@string/txt_devoluciones" android:screenOrientation="portrait" android:name="md59a9303f54d1a19659b875330564620cf.ActDevmMain" />
+    <activity android:icon="@drawable/ic_devmed" android:label="@string/txt_devoluciones" android:screenOrientation="portrait" android:name="md59a9303f54d1a19659b875330564620cf.ActFirmaDev" />
+    <activity android:icon="@drawable/ic_devmed" android:label="@string/txt_devoluciones" android:screenOrientation="portrait" android:name="md59a9303f54d1a19659b875330564620cf.ActDevMed" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="AppDroid.Main.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>
+</manifest>

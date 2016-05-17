@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp"
+    android:background="@drawable/gradient">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+            <TextView
+                android:text="@string/spnn_servicio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TotalmenteBlanco"
+                android:id="@+id/textView1"
+                android:gravity="center" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerServicios" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TotalmenteBlanco"
+                android:layout_marginTop="12dp"
+                android:text="@string/spnn_ubicacion"
+                android:id="@+id/textView8"
+                android:layout_gravity="center_horizontal" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerUbicacion" />
+            <TextView
+                android:text="@string/txt_camas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TotalmenteBlanco"
+                android:layout_marginTop="20dp"
+                android:id="@+id/textView2"
+                android:gravity="center" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerDesde" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:id="@+id/spinnerHasta" />
+            <Button
+                android:text="@string/txt_ver"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                style="@style/TotalmenteBlanco"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnVer" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

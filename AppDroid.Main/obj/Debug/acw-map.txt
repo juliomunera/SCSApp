@@ -1,0 +1,228 @@
+AppDroid.Main.Activities.MainActivity, AppDroid.Main;md591316e9e42749aac4e93ff1beefb4615.MainActivity
+AppDroid.Main.Activities.MainActivity, AppDroid.Main, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null;md591316e9e42749aac4e93ff1beefb4615.MainActivity
+AppDroid.Main.Activities.MainActivity;md591316e9e42749aac4e93ff1beefb4615.MainActivity
+appdroid.main.activities.MainActivity;md591316e9e42749aac4e93ff1beefb4615.MainActivity
+AppDroid.Main.Activities.AppHomeList, AppDroid.Main;md591316e9e42749aac4e93ff1beefb4615.AppHomeList
+AppDroid.Main.Activities.AppHomeList, AppDroid.Main, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null;md591316e9e42749aac4e93ff1beefb4615.AppHomeList
+AppDroid.Main.Activities.AppHomeList;md591316e9e42749aac4e93ff1beefb4615.AppHomeList
+appdroid.main.activities.AppHomeList;md591316e9e42749aac4e93ff1beefb4615.AppHomeList
+AppDroid.Main.Activities.AppSetting, AppDroid.Main;md591316e9e42749aac4e93ff1beefb4615.AppSetting
+AppDroid.Main.Activities.AppSetting, AppDroid.Main, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null;md591316e9e42749aac4e93ff1beefb4615.AppSetting
+AppDroid.Main.Activities.AppSetting;md591316e9e42749aac4e93ff1beefb4615.AppSetting
+appdroid.main.activities.AppSetting;md591316e9e42749aac4e93ff1beefb4615.AppSetting
+SCSAPP.Android.Adapters.ImageAdapter, AppDroid.Main;md5edc6983a39358b987034898bdf76b129.ImageAdapter
+SCSAPP.Android.Adapters.ImageAdapter, AppDroid.Main, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null;md5edc6983a39358b987034898bdf76b129.ImageAdapter
+SCSAPP.Android.Adapters.ImageAdapter;md5edc6983a39358b987034898bdf76b129.ImageAdapter
+scsapp.android.adapters.ImageAdapter;md5edc6983a39358b987034898bdf76b129.ImageAdapter
+SCSAPP.Android.Adapters.AdapEad, AppDroid.Main;md5edc6983a39358b987034898bdf76b129.AdapEad
+SCSAPP.Android.Adapters.AdapEad, AppDroid.Main, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null;md5edc6983a39358b987034898bdf76b129.AdapEad
+SCSAPP.Android.Adapters.AdapEad;md5edc6983a39358b987034898bdf76b129.AdapEad
+scsapp.android.adapters.AdapEad;md5edc6983a39358b987034898bdf76b129.AdapEad
+SCSAPP.Android.Adapters.AdapSpeciality, AppDroid.Main;md5edc6983a39358b987034898bdf76b129.AdapSpeciality
+SCSAPP.Android.Adapters.AdapSpeciality, AppDroid.Main, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null;md5edc6983a39358b987034898bdf76b129.AdapSpeciality
+SCSAPP.Android.Adapters.AdapSpeciality;md5edc6983a39358b987034898bdf76b129.AdapSpeciality
+scsapp.android.adapters.AdapSpeciality;md5edc6983a39358b987034898bdf76b129.AdapSpeciality
+AppDroid.Main.Activities.InconsistencyService, AppDroid.Main;md591316e9e42749aac4e93ff1beefb4615.InconsistencyService
+AppDroid.Main.Activities.InconsistencyService, AppDroid.Main, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null;md591316e9e42749aac4e93ff1beefb4615.InconsistencyService
+AppDroid.Main.Activities.InconsistencyService;md591316e9e42749aac4e93ff1beefb4615.InconsistencyService
+appdroid.main.activities.InconsistencyService;md591316e9e42749aac4e93ff1beefb4615.InconsistencyService
+AppDroid.Main.Activities.DemoServiceBinder, AppDroid.Main;md591316e9e42749aac4e93ff1beefb4615.DemoServiceBinder
+AppDroid.Main.Activities.DemoServiceBinder, AppDroid.Main, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null;md591316e9e42749aac4e93ff1beefb4615.DemoServiceBinder
+AppDroid.Main.Activities.DemoServiceBinder;md591316e9e42749aac4e93ff1beefb4615.DemoServiceBinder
+appdroid.main.activities.DemoServiceBinder;md591316e9e42749aac4e93ff1beefb4615.DemoServiceBinder
+Android.Support.V4.View.ViewPager/IOnPageChangeListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
+Android.Support.V4.View.ViewPager+IOnPageChangeListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
+Android.Support.V4.View.ViewPager.IOnPageChangeListenerImplementor;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
+mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
+Android.Support.V4.Widget.NestedScrollView/IOnScrollChangeListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.widget.NestedScrollView_OnScrollChangeListenerImplementor
+Android.Support.V4.Widget.NestedScrollView+IOnScrollChangeListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.widget.NestedScrollView_OnScrollChangeListenerImplementor
+Android.Support.V4.Widget.NestedScrollView.IOnScrollChangeListenerImplementor;mono.android.support.v4.widget.NestedScrollView_OnScrollChangeListenerImplementor
+mono.android.support.v4.widget.NestedScrollView_OnScrollChangeListenerImplementor;mono.android.support.v4.widget.NestedScrollView_OnScrollChangeListenerImplementor
+Android.Support.V4.Widget.SwipeRefreshLayout/IOnRefreshListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.widget.SwipeRefreshLayout_OnRefreshListenerImplementor
+Android.Support.V4.Widget.SwipeRefreshLayout+IOnRefreshListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.widget.SwipeRefreshLayout_OnRefreshListenerImplementor
+Android.Support.V4.Widget.SwipeRefreshLayout.IOnRefreshListenerImplementor;mono.android.support.v4.widget.SwipeRefreshLayout_OnRefreshListenerImplementor
+mono.android.support.v4.widget.SwipeRefreshLayout_OnRefreshListenerImplementor;mono.android.support.v4.widget.SwipeRefreshLayout_OnRefreshListenerImplementor
+Android.Support.V4.App.FragmentManager/IOnBackStackChangedListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.app.FragmentManager_OnBackStackChangedListenerImplementor
+Android.Support.V4.App.FragmentManager+IOnBackStackChangedListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.app.FragmentManager_OnBackStackChangedListenerImplementor
+Android.Support.V4.App.FragmentManager.IOnBackStackChangedListenerImplementor;mono.android.support.v4.app.FragmentManager_OnBackStackChangedListenerImplementor
+mono.android.support.v4.app.FragmentManager_OnBackStackChangedListenerImplementor;mono.android.support.v4.app.FragmentManager_OnBackStackChangedListenerImplementor
+Android.Support.V4.Content.Loader/IOnLoadCanceledListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.content.Loader_OnLoadCanceledListenerImplementor
+Android.Support.V4.Content.Loader+IOnLoadCanceledListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.content.Loader_OnLoadCanceledListenerImplementor
+Android.Support.V4.Content.Loader.IOnLoadCanceledListenerImplementor;mono.android.support.v4.content.Loader_OnLoadCanceledListenerImplementor
+mono.android.support.v4.content.Loader_OnLoadCanceledListenerImplementor;mono.android.support.v4.content.Loader_OnLoadCanceledListenerImplementor
+Android.Support.V4.Content.Loader/IOnLoadCompleteListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.content.Loader_OnLoadCompleteListenerImplementor
+Android.Support.V4.Content.Loader+IOnLoadCompleteListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.content.Loader_OnLoadCompleteListenerImplementor
+Android.Support.V4.Content.Loader.IOnLoadCompleteListenerImplementor;mono.android.support.v4.content.Loader_OnLoadCompleteListenerImplementor
+mono.android.support.v4.content.Loader_OnLoadCompleteListenerImplementor;mono.android.support.v4.content.Loader_OnLoadCompleteListenerImplementor
+Android.Support.V4.Media.Session.MediaSessionCompat/IOnActiveChangeListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.media.session.MediaSessionCompat_OnActiveChangeListenerImplementor
+Android.Support.V4.Media.Session.MediaSessionCompat+IOnActiveChangeListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.media.session.MediaSessionCompat_OnActiveChangeListenerImplementor
+Android.Support.V4.Media.Session.MediaSessionCompat.IOnActiveChangeListenerImplementor;mono.android.support.v4.media.session.MediaSessionCompat_OnActiveChangeListenerImplementor
+mono.android.support.v4.media.session.MediaSessionCompat_OnActiveChangeListenerImplementor;mono.android.support.v4.media.session.MediaSessionCompat_OnActiveChangeListenerImplementor
+Android.Support.V4.OS.CancellationSignal/IOnCancelListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.os.CancellationSignal_OnCancelListenerImplementor
+Android.Support.V4.OS.CancellationSignal+IOnCancelListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.os.CancellationSignal_OnCancelListenerImplementor
+Android.Support.V4.OS.CancellationSignal.IOnCancelListenerImplementor;mono.android.support.v4.os.CancellationSignal_OnCancelListenerImplementor
+mono.android.support.v4.os.CancellationSignal_OnCancelListenerImplementor;mono.android.support.v4.os.CancellationSignal_OnCancelListenerImplementor
+Android.Support.V4.View.ActionProvider/ISubUiVisibilityListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.view.ActionProvider_SubUiVisibilityListenerImplementor
+Android.Support.V4.View.ActionProvider+ISubUiVisibilityListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.view.ActionProvider_SubUiVisibilityListenerImplementor
+Android.Support.V4.View.ActionProvider.ISubUiVisibilityListenerImplementor;mono.android.support.v4.view.ActionProvider_SubUiVisibilityListenerImplementor
+mono.android.support.v4.view.ActionProvider_SubUiVisibilityListenerImplementor;mono.android.support.v4.view.ActionProvider_SubUiVisibilityListenerImplementor
+Android.Support.V4.View.ActionProvider/IVisibilityListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.view.ActionProvider_VisibilityListenerImplementor
+Android.Support.V4.View.ActionProvider+IVisibilityListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.view.ActionProvider_VisibilityListenerImplementor
+Android.Support.V4.View.ActionProvider.IVisibilityListenerImplementor;mono.android.support.v4.view.ActionProvider_VisibilityListenerImplementor
+mono.android.support.v4.view.ActionProvider_VisibilityListenerImplementor;mono.android.support.v4.view.ActionProvider_VisibilityListenerImplementor
+Android.Support.V4.View.IOnApplyWindowInsetsListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.view.OnApplyWindowInsetsListenerImplementor
+Android.Support.V4.View.IOnApplyWindowInsetsListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.view.OnApplyWindowInsetsListenerImplementor
+Android.Support.V4.View.IOnApplyWindowInsetsListenerImplementor;mono.android.support.v4.view.OnApplyWindowInsetsListenerImplementor
+mono.android.support.v4.view.OnApplyWindowInsetsListenerImplementor;mono.android.support.v4.view.OnApplyWindowInsetsListenerImplementor
+Android.Support.V4.View.IViewPropertyAnimatorListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.view.ViewPropertyAnimatorListenerImplementor
+Android.Support.V4.View.IViewPropertyAnimatorListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.view.ViewPropertyAnimatorListenerImplementor
+Android.Support.V4.View.IViewPropertyAnimatorListenerImplementor;mono.android.support.v4.view.ViewPropertyAnimatorListenerImplementor
+mono.android.support.v4.view.ViewPropertyAnimatorListenerImplementor;mono.android.support.v4.view.ViewPropertyAnimatorListenerImplementor
+Android.Support.V4.View.IViewPropertyAnimatorUpdateListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.view.ViewPropertyAnimatorUpdateListenerImplementor
+Android.Support.V4.View.IViewPropertyAnimatorUpdateListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.view.ViewPropertyAnimatorUpdateListenerImplementor
+Android.Support.V4.View.IViewPropertyAnimatorUpdateListenerImplementor;mono.android.support.v4.view.ViewPropertyAnimatorUpdateListenerImplementor
+mono.android.support.v4.view.ViewPropertyAnimatorUpdateListenerImplementor;mono.android.support.v4.view.ViewPropertyAnimatorUpdateListenerImplementor
+Android.Support.V4.View.MenuItemCompat/IOnActionExpandListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.view.MenuItemCompat_OnActionExpandListenerImplementor
+Android.Support.V4.View.MenuItemCompat+IOnActionExpandListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.view.MenuItemCompat_OnActionExpandListenerImplementor
+Android.Support.V4.View.MenuItemCompat.IOnActionExpandListenerImplementor;mono.android.support.v4.view.MenuItemCompat_OnActionExpandListenerImplementor
+mono.android.support.v4.view.MenuItemCompat_OnActionExpandListenerImplementor;mono.android.support.v4.view.MenuItemCompat_OnActionExpandListenerImplementor
+Android.Support.V4.Widget.DrawerLayout/IDrawerListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.widget.DrawerLayout_DrawerListenerImplementor
+Android.Support.V4.Widget.DrawerLayout+IDrawerListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.widget.DrawerLayout_DrawerListenerImplementor
+Android.Support.V4.Widget.DrawerLayout.IDrawerListenerImplementor;mono.android.support.v4.widget.DrawerLayout_DrawerListenerImplementor
+mono.android.support.v4.widget.DrawerLayout_DrawerListenerImplementor;mono.android.support.v4.widget.DrawerLayout_DrawerListenerImplementor
+Android.Support.V4.Widget.SlidingPaneLayout/IPanelSlideListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.widget.SlidingPaneLayout_PanelSlideListenerImplementor
+Android.Support.V4.Widget.SlidingPaneLayout+IPanelSlideListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.widget.SlidingPaneLayout_PanelSlideListenerImplementor
+Android.Support.V4.Widget.SlidingPaneLayout.IPanelSlideListenerImplementor;mono.android.support.v4.widget.SlidingPaneLayout_PanelSlideListenerImplementor
+mono.android.support.v4.widget.SlidingPaneLayout_PanelSlideListenerImplementor;mono.android.support.v4.widget.SlidingPaneLayout_PanelSlideListenerImplementor
+APPDroid.AdmMed.Activities.MyActionBarDrawerToggle, APPDroid.AdmMed;md5277f6bda02cfc7ac27321105c252a6e4.MyActionBarDrawerToggle
+APPDroid.AdmMed.Activities.MyActionBarDrawerToggle, APPDroid.AdmMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md5277f6bda02cfc7ac27321105c252a6e4.MyActionBarDrawerToggle
+APPDroid.AdmMed.Activities.MyActionBarDrawerToggle;md5277f6bda02cfc7ac27321105c252a6e4.MyActionBarDrawerToggle
+appdroid.admmed.activities.MyActionBarDrawerToggle;md5277f6bda02cfc7ac27321105c252a6e4.MyActionBarDrawerToggle
+APPDroid.AdmMed.Activities.ActPatientList, APPDroid.AdmMed;md5277f6bda02cfc7ac27321105c252a6e4.ActPatientList
+APPDroid.AdmMed.Activities.ActPatientList, APPDroid.AdmMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md5277f6bda02cfc7ac27321105c252a6e4.ActPatientList
+APPDroid.AdmMed.Activities.ActPatientList;md5277f6bda02cfc7ac27321105c252a6e4.ActPatientList
+appdroid.admmed.activities.ActPatientList;md5277f6bda02cfc7ac27321105c252a6e4.ActPatientList
+APPDroid.AdmMed.Activities.ActMain, APPDroid.AdmMed;md5277f6bda02cfc7ac27321105c252a6e4.ActMain
+APPDroid.AdmMed.Activities.ActMain, APPDroid.AdmMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md5277f6bda02cfc7ac27321105c252a6e4.ActMain
+APPDroid.AdmMed.Activities.ActMain;md5277f6bda02cfc7ac27321105c252a6e4.ActMain
+appdroid.admmed.activities.ActMain;md5277f6bda02cfc7ac27321105c252a6e4.ActMain
+APPDroid.AdmMed.Activities.ActConfirmar, APPDroid.AdmMed;md5277f6bda02cfc7ac27321105c252a6e4.ActConfirmar
+APPDroid.AdmMed.Activities.ActConfirmar, APPDroid.AdmMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md5277f6bda02cfc7ac27321105c252a6e4.ActConfirmar
+APPDroid.AdmMed.Activities.ActConfirmar;md5277f6bda02cfc7ac27321105c252a6e4.ActConfirmar
+appdroid.admmed.activities.ActConfirmar;md5277f6bda02cfc7ac27321105c252a6e4.ActConfirmar
+APPDroid.AdmMed.Activities.ActDiluyente, APPDroid.AdmMed;md5277f6bda02cfc7ac27321105c252a6e4.ActDiluyente
+APPDroid.AdmMed.Activities.ActDiluyente, APPDroid.AdmMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md5277f6bda02cfc7ac27321105c252a6e4.ActDiluyente
+APPDroid.AdmMed.Activities.ActDiluyente;md5277f6bda02cfc7ac27321105c252a6e4.ActDiluyente
+appdroid.admmed.activities.ActDiluyente;md5277f6bda02cfc7ac27321105c252a6e4.ActDiluyente
+APPDroid.AdmMed.Activities.ActPacienteExmpan, APPDroid.AdmMed;md5277f6bda02cfc7ac27321105c252a6e4.ActPacienteExmpan
+APPDroid.AdmMed.Activities.ActPacienteExmpan, APPDroid.AdmMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md5277f6bda02cfc7ac27321105c252a6e4.ActPacienteExmpan
+APPDroid.AdmMed.Activities.ActPacienteExmpan;md5277f6bda02cfc7ac27321105c252a6e4.ActPacienteExmpan
+appdroid.admmed.activities.ActPacienteExmpan;md5277f6bda02cfc7ac27321105c252a6e4.ActPacienteExmpan
+APPDroid.AdmMed.Activities.FragActCamaCodigo, APPDroid.AdmMed;md5277f6bda02cfc7ac27321105c252a6e4.FragActCamaCodigo
+APPDroid.AdmMed.Activities.FragActCamaCodigo, APPDroid.AdmMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md5277f6bda02cfc7ac27321105c252a6e4.FragActCamaCodigo
+APPDroid.AdmMed.Activities.FragActCamaCodigo;md5277f6bda02cfc7ac27321105c252a6e4.FragActCamaCodigo
+appdroid.admmed.activities.FragActCamaCodigo;md5277f6bda02cfc7ac27321105c252a6e4.FragActCamaCodigo
+APPDroid.AdmMed.Adapters.AdaPacientes, APPDroid.AdmMed;md594f4811e9c18f6b0ef33a0a8228d5af4.AdaPacientes
+APPDroid.AdmMed.Adapters.AdaPacientes, APPDroid.AdmMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md594f4811e9c18f6b0ef33a0a8228d5af4.AdaPacientes
+APPDroid.AdmMed.Adapters.AdaPacientes;md594f4811e9c18f6b0ef33a0a8228d5af4.AdaPacientes
+appdroid.admmed.adapters.AdaPacientes;md594f4811e9c18f6b0ef33a0a8228d5af4.AdaPacientes
+APPDroid.AdmMed.Adapters.AdaExpaPaciente, APPDroid.AdmMed;md594f4811e9c18f6b0ef33a0a8228d5af4.AdaExpaPaciente
+APPDroid.AdmMed.Adapters.AdaExpaPaciente, APPDroid.AdmMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md594f4811e9c18f6b0ef33a0a8228d5af4.AdaExpaPaciente
+APPDroid.AdmMed.Adapters.AdaExpaPaciente;md594f4811e9c18f6b0ef33a0a8228d5af4.AdaExpaPaciente
+appdroid.admmed.adapters.AdaExpaPaciente;md594f4811e9c18f6b0ef33a0a8228d5af4.AdaExpaPaciente
+APPDroid.AdmMed.Adapters.AdaMedicamento, APPDroid.AdmMed;md594f4811e9c18f6b0ef33a0a8228d5af4.AdaMedicamento
+APPDroid.AdmMed.Adapters.AdaMedicamento, APPDroid.AdmMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md594f4811e9c18f6b0ef33a0a8228d5af4.AdaMedicamento
+APPDroid.AdmMed.Adapters.AdaMedicamento;md594f4811e9c18f6b0ef33a0a8228d5af4.AdaMedicamento
+appdroid.admmed.adapters.AdaMedicamento;md594f4811e9c18f6b0ef33a0a8228d5af4.AdaMedicamento
+APPDroid.AdmMed.Fragments.FragCodigoManilla, APPDroid.AdmMed;md50a48c309ee6307a1de71f2295c175797.FragCodigoManilla
+APPDroid.AdmMed.Fragments.FragCodigoManilla, APPDroid.AdmMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md50a48c309ee6307a1de71f2295c175797.FragCodigoManilla
+APPDroid.AdmMed.Fragments.FragCodigoManilla;md50a48c309ee6307a1de71f2295c175797.FragCodigoManilla
+appdroid.admmed.fragments.FragCodigoManilla;md50a48c309ee6307a1de71f2295c175797.FragCodigoManilla
+APPDroid.AdmMed.Adapters.AdapCausa, APPDroid.AdmMed;md594f4811e9c18f6b0ef33a0a8228d5af4.AdapCausa
+APPDroid.AdmMed.Adapters.AdapCausa, APPDroid.AdmMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md594f4811e9c18f6b0ef33a0a8228d5af4.AdapCausa
+APPDroid.AdmMed.Adapters.AdapCausa;md594f4811e9c18f6b0ef33a0a8228d5af4.AdapCausa
+appdroid.admmed.adapters.AdapCausa;md594f4811e9c18f6b0ef33a0a8228d5af4.AdapCausa
+APPDroid.AdmMed.Activities.ActDosis, APPDroid.AdmMed;md5277f6bda02cfc7ac27321105c252a6e4.ActDosis
+APPDroid.AdmMed.Activities.ActDosis, APPDroid.AdmMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md5277f6bda02cfc7ac27321105c252a6e4.ActDosis
+APPDroid.AdmMed.Activities.ActDosis;md5277f6bda02cfc7ac27321105c252a6e4.ActDosis
+appdroid.admmed.activities.ActDosis;md5277f6bda02cfc7ac27321105c252a6e4.ActDosis
+APPDroid.AdmMed.Activities.ActSelectPatient, APPDroid.AdmMed;md5277f6bda02cfc7ac27321105c252a6e4.ActSelectPatient
+APPDroid.AdmMed.Activities.ActSelectPatient, APPDroid.AdmMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md5277f6bda02cfc7ac27321105c252a6e4.ActSelectPatient
+APPDroid.AdmMed.Activities.ActSelectPatient;md5277f6bda02cfc7ac27321105c252a6e4.ActSelectPatient
+appdroid.admmed.activities.ActSelectPatient;md5277f6bda02cfc7ac27321105c252a6e4.ActSelectPatient
+APPDroid.AdmMed.Activities.ActPatientHandle, APPDroid.AdmMed;md5277f6bda02cfc7ac27321105c252a6e4.ActPatientHandle
+APPDroid.AdmMed.Activities.ActPatientHandle, APPDroid.AdmMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md5277f6bda02cfc7ac27321105c252a6e4.ActPatientHandle
+APPDroid.AdmMed.Activities.ActPatientHandle;md5277f6bda02cfc7ac27321105c252a6e4.ActPatientHandle
+appdroid.admmed.activities.ActPatientHandle;md5277f6bda02cfc7ac27321105c252a6e4.ActPatientHandle
+APPDroid.CarMed.Adapters.AdapMedicines, APPDroid.CarMed;md5412f439de50ad353369b962dda302764.AdapMedicines
+APPDroid.CarMed.Adapters.AdapMedicines, APPDroid.CarMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md5412f439de50ad353369b962dda302764.AdapMedicines
+APPDroid.CarMed.Adapters.AdapMedicines;md5412f439de50ad353369b962dda302764.AdapMedicines
+appdroid.carmed.adapters.AdapMedicines;md5412f439de50ad353369b962dda302764.AdapMedicines
+APPDroid.CarMed.Activities.ActCarMain, APPDroid.CarMed;md59e892a643505dc9644b9c9db29bdad72.ActCarMain
+APPDroid.CarMed.Activities.ActCarMain, APPDroid.CarMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md59e892a643505dc9644b9c9db29bdad72.ActCarMain
+APPDroid.CarMed.Activities.ActCarMain;md59e892a643505dc9644b9c9db29bdad72.ActCarMain
+appdroid.carmed.activities.ActCarMain;md59e892a643505dc9644b9c9db29bdad72.ActCarMain
+APPDroid.CarMed.FragCarMedicine, APPDroid.CarMed;md589be1317d0ef8681e0a669ce0cde78db.FragCarMedicine
+APPDroid.CarMed.FragCarMedicine, APPDroid.CarMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md589be1317d0ef8681e0a669ce0cde78db.FragCarMedicine
+APPDroid.CarMed.FragCarMedicine;md589be1317d0ef8681e0a669ce0cde78db.FragCarMedicine
+appdroid.carmed.FragCarMedicine;md589be1317d0ef8681e0a669ce0cde78db.FragCarMedicine
+APPDroid.CarMed.Adapters.AdapCargarPatients, APPDroid.CarMed;md5412f439de50ad353369b962dda302764.AdapCargarPatients
+APPDroid.CarMed.Adapters.AdapCargarPatients, APPDroid.CarMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md5412f439de50ad353369b962dda302764.AdapCargarPatients
+APPDroid.CarMed.Adapters.AdapCargarPatients;md5412f439de50ad353369b962dda302764.AdapCargarPatients
+appdroid.carmed.adapters.AdapCargarPatients;md5412f439de50ad353369b962dda302764.AdapCargarPatients
+APPDroid.CarMed.Adapters.ExpandableCarPatien, APPDroid.CarMed;md5412f439de50ad353369b962dda302764.ExpandableCarPatien
+APPDroid.CarMed.Adapters.ExpandableCarPatien, APPDroid.CarMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md5412f439de50ad353369b962dda302764.ExpandableCarPatien
+APPDroid.CarMed.Adapters.ExpandableCarPatien;md5412f439de50ad353369b962dda302764.ExpandableCarPatien
+appdroid.carmed.adapters.ExpandableCarPatien;md5412f439de50ad353369b962dda302764.ExpandableCarPatien
+APPDroid.CarMed.Activities.DrawerToggles, APPDroid.CarMed;md59e892a643505dc9644b9c9db29bdad72.DrawerToggles
+APPDroid.CarMed.Activities.DrawerToggles, APPDroid.CarMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md59e892a643505dc9644b9c9db29bdad72.DrawerToggles
+APPDroid.CarMed.Activities.DrawerToggles;md59e892a643505dc9644b9c9db29bdad72.DrawerToggles
+appdroid.carmed.activities.DrawerToggles;md59e892a643505dc9644b9c9db29bdad72.DrawerToggles
+APPDroid.CarMed.Activities.ActCarList, APPDroid.CarMed;md59e892a643505dc9644b9c9db29bdad72.ActCarList
+APPDroid.CarMed.Activities.ActCarList, APPDroid.CarMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md59e892a643505dc9644b9c9db29bdad72.ActCarList
+APPDroid.CarMed.Activities.ActCarList;md59e892a643505dc9644b9c9db29bdad72.ActCarList
+appdroid.carmed.activities.ActCarList;md59e892a643505dc9644b9c9db29bdad72.ActCarList
+APPDroid.CarMed.Adapters.AdapterCausaCar, APPDroid.CarMed;md5412f439de50ad353369b962dda302764.AdapterCausaCar
+APPDroid.CarMed.Adapters.AdapterCausaCar, APPDroid.CarMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md5412f439de50ad353369b962dda302764.AdapterCausaCar
+APPDroid.CarMed.Adapters.AdapterCausaCar;md5412f439de50ad353369b962dda302764.AdapterCausaCar
+appdroid.carmed.adapters.AdapterCausaCar;md5412f439de50ad353369b962dda302764.AdapterCausaCar
+APPDroid.CarMed.Activities.ActInconsistencia, APPDroid.CarMed;md59e892a643505dc9644b9c9db29bdad72.ActInconsistencia
+APPDroid.CarMed.Activities.ActInconsistencia, APPDroid.CarMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md59e892a643505dc9644b9c9db29bdad72.ActInconsistencia
+APPDroid.CarMed.Activities.ActInconsistencia;md59e892a643505dc9644b9c9db29bdad72.ActInconsistencia
+appdroid.carmed.activities.ActInconsistencia;md59e892a643505dc9644b9c9db29bdad72.ActInconsistencia
+APPDroid.CarMed.Adapters.AdapIncosistences, APPDroid.CarMed;md5412f439de50ad353369b962dda302764.AdapIncosistences
+APPDroid.CarMed.Adapters.AdapIncosistences, APPDroid.CarMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md5412f439de50ad353369b962dda302764.AdapIncosistences
+APPDroid.CarMed.Adapters.AdapIncosistences;md5412f439de50ad353369b962dda302764.AdapIncosistences
+appdroid.carmed.adapters.AdapIncosistences;md5412f439de50ad353369b962dda302764.AdapIncosistences
+APPDroid.CarMed.Adapters.AdapGrupCum, APPDroid.CarMed;md5412f439de50ad353369b962dda302764.AdapGrupCum
+APPDroid.CarMed.Adapters.AdapGrupCum, APPDroid.CarMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md5412f439de50ad353369b962dda302764.AdapGrupCum
+APPDroid.CarMed.Adapters.AdapGrupCum;md5412f439de50ad353369b962dda302764.AdapGrupCum
+appdroid.carmed.adapters.AdapGrupCum;md5412f439de50ad353369b962dda302764.AdapGrupCum
+APPDroid.DevMed.Activities.ActDevmMain, APPDroid.DevMed;md59a9303f54d1a19659b875330564620cf.ActDevmMain
+APPDroid.DevMed.Activities.ActDevmMain, APPDroid.DevMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md59a9303f54d1a19659b875330564620cf.ActDevmMain
+APPDroid.DevMed.Activities.ActDevmMain;md59a9303f54d1a19659b875330564620cf.ActDevmMain
+appdroid.devmed.activities.ActDevmMain;md59a9303f54d1a19659b875330564620cf.ActDevmMain
+APPDroid.DevMed.Adapters.AdapterPatients, APPDroid.DevMed;md5de86e213bdcd0214682af35e541cb0a4.AdapterPatients
+APPDroid.DevMed.Adapters.AdapterPatients, APPDroid.DevMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md5de86e213bdcd0214682af35e541cb0a4.AdapterPatients
+APPDroid.DevMed.Adapters.AdapterPatients;md5de86e213bdcd0214682af35e541cb0a4.AdapterPatients
+appdroid.devmed.adapters.AdapterPatients;md5de86e213bdcd0214682af35e541cb0a4.AdapterPatients
+APPDroid.DevMed.Adapters.AdapterMedDev, APPDroid.DevMed;md5de86e213bdcd0214682af35e541cb0a4.AdapterMedDev
+APPDroid.DevMed.Adapters.AdapterMedDev, APPDroid.DevMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md5de86e213bdcd0214682af35e541cb0a4.AdapterMedDev
+APPDroid.DevMed.Adapters.AdapterMedDev;md5de86e213bdcd0214682af35e541cb0a4.AdapterMedDev
+appdroid.devmed.adapters.AdapterMedDev;md5de86e213bdcd0214682af35e541cb0a4.AdapterMedDev
+APPDroid.DevMed.Adapters.AdapterCausaDev, APPDroid.DevMed;md5de86e213bdcd0214682af35e541cb0a4.AdapterCausaDev
+APPDroid.DevMed.Adapters.AdapterCausaDev, APPDroid.DevMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md5de86e213bdcd0214682af35e541cb0a4.AdapterCausaDev
+APPDroid.DevMed.Adapters.AdapterCausaDev;md5de86e213bdcd0214682af35e541cb0a4.AdapterCausaDev
+appdroid.devmed.adapters.AdapterCausaDev;md5de86e213bdcd0214682af35e541cb0a4.AdapterCausaDev
+APPDroid.DevMed.Activities.ActFirmaDev, APPDroid.DevMed;md59a9303f54d1a19659b875330564620cf.ActFirmaDev
+APPDroid.DevMed.Activities.ActFirmaDev, APPDroid.DevMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md59a9303f54d1a19659b875330564620cf.ActFirmaDev
+APPDroid.DevMed.Activities.ActFirmaDev;md59a9303f54d1a19659b875330564620cf.ActFirmaDev
+appdroid.devmed.activities.ActFirmaDev;md59a9303f54d1a19659b875330564620cf.ActFirmaDev
+APPDroid.DevMed.Activities.ActDevMed, APPDroid.DevMed;md59a9303f54d1a19659b875330564620cf.ActDevMed
+APPDroid.DevMed.Activities.ActDevMed, APPDroid.DevMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md59a9303f54d1a19659b875330564620cf.ActDevMed
+APPDroid.DevMed.Activities.ActDevMed;md59a9303f54d1a19659b875330564620cf.ActDevMed
+appdroid.devmed.activities.ActDevMed;md59a9303f54d1a19659b875330564620cf.ActDevMed
+APPDroid.DevMed.Adapters.AdapGrupCumDev, APPDroid.DevMed;md5de86e213bdcd0214682af35e541cb0a4.AdapGrupCumDev
+APPDroid.DevMed.Adapters.AdapGrupCumDev, APPDroid.DevMed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md5de86e213bdcd0214682af35e541cb0a4.AdapGrupCumDev
+APPDroid.DevMed.Adapters.AdapGrupCumDev;md5de86e213bdcd0214682af35e541cb0a4.AdapGrupCumDev
+appdroid.devmed.adapters.AdapGrupCumDev;md5de86e213bdcd0214682af35e541cb0a4.AdapGrupCumDev

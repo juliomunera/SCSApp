@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	 Author: gergarga 
+	 Date: 2015-04-12 
+	 SCSAPP 
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="AppDroid.Main" android:versionCode="2" android:versionName="2.0">
+	<uses-sdk android:minSdkVersion="11" android:targetSdkVersion="21" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.GET_ACCOUNTS" />
+	<uses-permission android:name="android.permission.USE_CREDENTIALS" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<application android:label="ServinteApp" android:icon="@drawable/ic_servinte"></application>
+</manifest>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@android:color/transparent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#E6E6E6"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="EPI: 234"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+                android:id="@+id/txtEpi" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Paciente: German Garcia."
+                android:textStyle="bold"
+                android:textColor="@android:color/background_dark"
+                android:id="@+id/txtPatient" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Programa"
+                android:textStyle="bold"
+                android:textColor="@android:color/background_dark"
+                android:id="@+id/txtPrograma" />
+        </LinearLayout>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/enviarCargo"
+            android:src="@android:drawable/ic_menu_rotate"
+            android:layout_weight="5" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inconsistencias:"
+        android:textSize="12sp"
+        android:layout_marginTop="6dp"
+        android:textStyle="bold"
+        android:id="@+id/textView" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:id="@+id/tblInconsistencias"
+        android:layout_height="wrap_content" />
+</LinearLayout>

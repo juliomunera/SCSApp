@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <Jars></Jars>
+  <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>/Users/servintesas/Documents/BK SCSAPP/SCSAPP_v1.0/Net/Device/Android/AppDroid.Main/obj/Release/__library_projects__/APPDroid.Framework/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/servintesas/Documents/BK SCSAPP/SCSAPP_v1.0/Net/Device/Android/AppDroid.Main/obj/Release/__library_projects__/APPDroid.AdmMed/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/servintesas/Documents/BK SCSAPP/SCSAPP_v1.0/Net/Device/Android/AppDroid.Main/obj/Release/__library_projects__/APPDroid.CarMed/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/servintesas/Documents/BK SCSAPP/SCSAPP_v1.0/Net/Device/Android/AppDroid.Main/obj/Release/__library_projects__/APPDroid.DevMed/library_project_imports/res</ResolvedResourceDirectory>
+  </ResolvedResourceDirectories>
+  <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>/Users/servintesas/Documents/BK SCSAPP/SCSAPP_v1.0/Net/Device/Android/AppDroid.Main/obj/Release/__library_projects__/APPDroid.Framework/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/servintesas/Documents/BK SCSAPP/SCSAPP_v1.0/Net/Device/Android/AppDroid.Main/obj/Release/__library_projects__/APPDroid.AdmMed/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/servintesas/Documents/BK SCSAPP/SCSAPP_v1.0/Net/Device/Android/AppDroid.Main/obj/Release/__library_projects__/APPDroid.CarMed/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/servintesas/Documents/BK SCSAPP/SCSAPP_v1.0/Net/Device/Android/AppDroid.Main/obj/Release/__library_projects__/APPDroid.DevMed/library_project_imports/assets</ResolvedAssetDirectory>
+  </ResolvedAssetDirectories>
+  <ResolvedEnvironmentFiles />
+  <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>/Users/servintesas/Documents/BK SCSAPP/SCSAPP_v1.0/Net/Device/Android/AppDroid.Main/obj/Release/__library_projects__/APPDroid.Framework.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/servintesas/Documents/BK SCSAPP/SCSAPP_v1.0/Net/Device/Android/AppDroid.Main/obj/Release/__library_projects__/APPDroid.AdmMed.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/servintesas/Documents/BK SCSAPP/SCSAPP_v1.0/Net/Device/Android/AppDroid.Main/obj/Release/__library_projects__/APPDroid.CarMed.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/servintesas/Documents/BK SCSAPP/SCSAPP_v1.0/Net/Device/Android/AppDroid.Main/obj/Release/__library_projects__/APPDroid.DevMed.stamp</ResolvedResourceDirectoryStamp>
+  </ResolvedResourceDirectoryStamps>
+</Paths>

@@ -1,0 +1,10 @@
+values/Strings.xml;values/strings.xml
+layout/layout_dev_main.axml;layout/layout_dev_main.xml
+layout/item_spinner.axml;layout/item_spinner.xml
+layout/layout_dev_medicament.axml;layout/layout_dev_medicament.xml
+layout/header_patient.axml;layout/header_patient.xml
+layout/header_nombre.axml;layout/header_nombre.xml
+layout/items_dev_medicament.axml;layout/items_dev_medicament.xml
+layout/layout_dev_firma.axml;layout/layout_dev_firma.xml
+layout/dialog_detalle_medic_dev.axml;layout/dialog_detalle_medic_dev.xml
+layout/item_grup_medicament_dev.axml;layout/item_grup_medicament_dev.xml

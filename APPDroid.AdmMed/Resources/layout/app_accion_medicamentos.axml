@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="9dp"
+    android:background="@drawable/gradient"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Administrar"
+            style="@style/TextoActionMedicamentos"
+            android:drawableLeft="@drawable/ic_action_tick"
+            android:drawablePadding="2dp"
+            android:gravity="left|center_vertical"
+            android:id="@+id/btnAdministrar" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_action_cancel"
+            android:text="No Administrar"
+            style="@style/TextoActionMedicamentos"
+            android:drawablePadding="2dp"
+            android:gravity="left|center_vertical"
+            android:id="@+id/btnNoAdministrar" />
+    </LinearLayout>
+</RelativeLayout>
